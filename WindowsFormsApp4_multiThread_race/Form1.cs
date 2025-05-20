@@ -26,6 +26,7 @@ namespace WindowsFormsApp4_multiThread_race
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
             finishedCount = 0;
 
             ProgressBar[] bars = { progressBar1, progressBar2, progressBar3, progressBar4, progressBar5 };
